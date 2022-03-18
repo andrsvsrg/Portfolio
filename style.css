@@ -1,0 +1,374 @@
+body {
+  background-color:rgb(240, 240, 240);  
+  
+  font-family: 'PT Mono', monospace;
+
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+   /* border:5px solid green; */
+}
+h1,h2,h3 {
+  font-family: 'Amatic SC', cursive;
+}
+
+/* header */
+
+.menu  {
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Amatic SC', cursive;
+  
+  
+}
+.menu ul {
+  
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0px;
+  
+  
+}
+.menu ul li {
+  width: 25%;
+  font-size: 1.5em;
+  border:1px solid rgb(222, 222, 222);
+  text-align: center;
+  
+  background-color: rgb(255, 255,255);
+  
+}
+.menu a {
+  text-decoration: none;
+  color:rgb(0,0,0);
+  font-size: 1.4em;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*border: 1px solid red; */
+  
+  
+}
+.menu a:hover{
+  background: rgb(222, 222, 222);
+
+}
+/* about */
+.about {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  background-color:rgb(255, 255,255);
+  border:2px solid rgb(222, 222, 222);
+  
+  
+}
+.about_container{
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  margin:30px 30px;
+  
+  flex: 30%;
+  max-width: 30%;
+}
+
+.download {
+width: 100%;
+border:2px solid rgb(222, 222, 222);
+}
+.download a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0px;
+  color:rgb(0,0,0);
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+}
+.download a:hover {
+  background: rgb(222, 222, 222);
+}
+
+
+
+.photo img {
+  border:2px solid rgb(222, 222, 222);
+}
+.blue {
+  color: rgb(45, 155, 219);
+}
+.information {
+  flex: 60%;
+  max-width: 60%;
+  padding-right: 30px;
+  font-size: 1em;
+  font-weight:500;
+}
+.text {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight:500;
+}
+.text h4 {
+  margin-block-start: 0;
+  margin-inline-start: 25px;
+  margin-block-end: 0.3em;
+
+}
+.text h1 {
+  margin-block-end: 0;
+}
+.text p {
+  font-family: 'Cormorant Infant', serif;
+  font-family: 'PT Mono', monospace;
+ 
+  font-size: 17px;
+}
+
+
+.gray {
+  color:rgb(158, 156, 156)
+}
+
+.contact {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact .column1, .contact .column2 {
+  flex: 50%;
+  max-width: 50%;
+  
+}
+
+table a {
+  text-decoration: none;
+  color:rgb(0,0,0);
+}
+
+
+/* skills */
+.skills_heading h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight:bold;
+}
+
+
+.skills {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  font-weight: 500;
+
+
+  
+}
+
+.professional_skills {
+  flex: 50%;
+  max-width: 50%;
+  background-color: rgb(255, 255,255);
+  border:2px solid rgb(222, 222, 222);
+}
+.additional_skills {
+  flex: 45%;
+  max-width: 45%;
+  background-color: rgb(255, 255,255);
+  border:2px solid rgb(222, 222, 222);
+}
+.additional_skills p {
+  font-size: 1em;
+  padding: 15px 20px;
+  margin: auto;
+}
+.language .polish p,.language .english p {
+  font-size: 1.2em;
+  padding: 15px 0px;
+    margin: auto;
+}
+ .professional_heading {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 39.5%;
+  margin: auto;
+  background-color: rgb(45, 155, 219);
+  color: rgb(255, 255,255);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  top: -25px;
+}
+.additional_heading {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 60%;
+  margin: auto;
+  background-color: rgb(45, 155, 219);
+  color: rgb(255, 255,255);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  top: -25px;
+}
+.skills_content {
+  width: 90%;
+  margin: auto;
+  
+}
+.value {
+  display: block;
+  
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 20px;
+  background-color: red;
+}
+progress[value]::-webkit-progress-bar {
+  background-color:rgb(116, 116,116);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value {
+  background-color: rgb(45, 155, 219);
+  
+}
+.sub_header {
+  
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+.space_between {
+  display: flex;
+  justify-content: space-between;
+
+}
+ .space_between span {
+  display: block;
+  font-weight: 600;
+  
+}
+.language {
+  margin:auto;
+  width: 90%;
+  max-width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.language_space {
+  padding-top: 35px;
+}
+
+/* portfolio */
+.works_heading h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight:bold;
+}
+.my_works {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  justify-content: space-between;
+
+}
+.my_works p {
+  font-size: 1em;
+  font-weight: 500;
+}
+.golden {
+  flex: 30%;
+  max-width: 30%;
+  /*border: 1px solid red; */
+}
+.photograph, .game {
+  flex: 30%;
+  max-width: 30%;
+}
+ 
+.golden_heading, .photograph_heading, .game_heading {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 60%;
+  margin: auto;
+  background-color: rgb(45, 155, 219);
+  color: rgb(255, 255,255);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  top:-5px;
+}
+.golden_img img, .photograph_img img, .game img {
+  border:2px solid rgb(222, 222, 222);
+  
+}
+
+
+
+/*Media tablet */
+@media screen and (max-width: 807px) {
+  .skills, .my_works {
+    flex-direction:column;
+    align-items: center;
+    
+  }
+  .professional_skills {
+    flex: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    
+  }
+  .additional_skills {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .photograph, .golden, .game {
+    flex: 85%;
+    max-width: 85%;
+  }
+  .photograph {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+  .about_container{
+    flex-direction: column;
+    
+  }
+  .information {
+    order: 1;
+    flex: 85%;
+    max-width: 85%;
+    padding: 3em;
+  }
+  .photo {
+    order:2;
+    flex: 65%;
+    max-width: 65%;
+    margin: 30px auto;
+  }
+  .text h1, .text h4 {
+    text-align: center;
+  }
+
+}
