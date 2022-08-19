@@ -279,28 +279,27 @@ progress[value]::-webkit-progress-value {
   font-size: 38px;
   font-weight:bold;
 }
-.my_works {
+.my_works_container {
   display: flex;
   max-width: 80%;
+  flex-direction: column;
   margin: auto;
-  justify-content: space-between;
-
+}
+.my_works {
+  display: flex;
+  justify-content: space-around;
 }
 .my_works p {
   font-size: 1em;
   font-weight: 500;
 }
-.golden {
-  flex: 30%;
-  max-width: 30%;
-  /*border: 1px solid red; */
-}
-.photograph, .game {
-  flex: 30%;
-  max-width: 30%;
+
+.photograph, .game, .golden, .toDo {
+  flex: 40%;
+  max-width: 40%;
 }
  
-.golden_heading, .photograph_heading, .game_heading {
+.golden_heading, .photograph_heading, .game_heading, .toDo_heading {
   display: block;
   text-align: center;
   font-size: 1.5em;
@@ -313,7 +312,7 @@ progress[value]::-webkit-progress-value {
   position: relative;
   top:-5px;
 }
-.golden_img img, .photograph_img img, .game img {
+.golden_img img, .photograph_img img, .game img, .toDo_img img {
   border:2px solid rgb(222, 222, 222);
   
 }
@@ -339,14 +338,12 @@ progress[value]::-webkit-progress-value {
     flex: 100%;
     max-width: 100%;
   }
-  .photograph, .golden, .game {
+  .photograph, .golden, .game, .toDo {
     flex: 85%;
     max-width: 85%;
+    margin: 20px auto;
   }
-  .photograph {
-    margin-top: 30px;
-    padding-bottom: 30px;
-  }
+
   .contact {
     flex-direction: column;
   }
