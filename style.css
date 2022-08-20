@@ -287,7 +287,8 @@ progress[value]::-webkit-progress-value {
 }
 .my_works {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 .my_works p {
   font-size: 1em;
@@ -295,8 +296,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .photograph, .game, .golden, .toDo {
-  flex: 40%;
-  max-width: 40%;
+  flex: 45%;
+  max-width: 45%;
 }
  
 .golden_heading, .photograph_heading, .game_heading, .toDo_heading {
