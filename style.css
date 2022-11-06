@@ -289,6 +289,7 @@ progress[value]::-webkit-progress-value {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 10px;
   margin-bottom: 20px;
 }
 .my_works p {
